@@ -3,9 +3,10 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("Olá Mundo!");
-		System.out.println("teste git");
-		System.out.println("teste master");
+		GeradorDeSQL g = new GeradorDeSQL();
+	
+		
+		System.out.println(g.toString());
 	}
 
 }
